@@ -1,5 +1,9 @@
 import styled from '@emotion/styled';
 
+export const FriendsItemLi = styled.li`
+  list-style-type: none;
+`;
+
 export const FriendsList = styled.ul`
   margin: 20px 40px;
   display: flex;
@@ -7,7 +11,7 @@ export const FriendsList = styled.ul`
   gap: 10px;
 `;
 
-export const FriendsItem = styled.li`
+export const FriendsItem = styled.div`
   display: flex;
   justify-content: baseline;
   align-items: center;

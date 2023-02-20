@@ -15,10 +15,10 @@ export const Table = styled.table`
     text-align: center;
     color: #9f9f9f;
   }
-  tbody tr:nth-child(odd) {
+  tbody tr:nth-of-type(odd) {
     background-color: #ffffff;
   }
-  tbody tr:nth-child(even) {
+  tbody tr:nth-of-type(even) {
     background-color: #e9e9e9;
   }
 `;
