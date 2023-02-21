@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 
 export const FriendsItemLi = styled.li`
   list-style-type: none;
