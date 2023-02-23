@@ -16,7 +16,7 @@ function App() {
   return (
     <React.StrictMode>
       <Profile userData={userData} />
-      <Statistics StatData={StatData} />
+      <Statistics StatData={StatData} title="Upload stats" />
       <FriendList friendsListData={friendsListData} />
       <TransactionHistory transactionData={transactionData} />
     </React.StrictMode>

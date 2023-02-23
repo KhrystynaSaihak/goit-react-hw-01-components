@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 import { StatItem } from './StatItem';
 import { Section, StatsHeader, StatList } from './Statistics.styled';
 
-export const Statistics = ({ StatData }) => {
+export const Statistics = ({ StatData, title }) => {
   return (
     <Section>
-      <StatsHeader>Upload stats</StatsHeader>
+      {title && <StatsHeader>{title}</StatsHeader>}
 
       <StatList>
         {StatData.map(({ label, percentage, id }) => (
